@@ -489,9 +489,19 @@ template {
   cursor: pointer;
 }
 
-.main-right-item-list-image:active {
-  border: 3px solid #e97e32;
-  opacity: 0.6;
+.main-right-item-list-image2 {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.main-right-item-list-image3 {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.main-right-item-list-image4 {
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .main-right-item-list .active-image {
