@@ -1,0 +1,156 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    &-right{
+        padding-top: 60px;
+        &-product{
+            border-radius: 20px;
+        }
+        &-item{
+            display: flex;
+            justify-content: space-between;
+            width: 350px;
+            margin-left: -30px;
+            &-list{
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+                margin-left: 20px;
+                &-image{
+                    border-radius: 10px;
+                    cursor: pointer;
+                    &:active{
+                        border: 3px solid rgb(233, 126, 50);
+                        opacity: 0.6;
+                    }
+                }
+                .active-image{
+                    border: 3px solid rgb(233, 126, 50);
+                    opacity: 0.6;
+                }
+            }
+        }
+    }
+    // end right
+    &-left{
+        padding-top: 100px;
+        width: 400px;
+        &-padding{
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            color :chocolate;
+            text-transform: uppercase;
+        }
+        &-heading{
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            color :black;
+            text-transform: uppercase;
+            font-size: 32px;
+        }
+        &-paddings{
+            text-decoration: none;
+            font-family: 'Montserrat' , sans-serif;
+            font-weight: 400;
+            color :gray;
+            font-size: 14px;
+            line-height: 22px;
+        }
+        &-sum{
+            display: flex;
+            width: 150px;
+            justify-content: space-between;
+            &-heading{
+                font-family: 'Montserrat' , sans-serif;
+                font-weight: 600;
+                font-size: 20px;
+            }
+            &-paddingr{
+                font-family: 'Montserrat' , sans-serif;
+                font-weight: 600;
+                color: white;
+                background-color: rgb(255, 233, 224);
+                border-radius: 10px;
+                color: coral;
+                padding: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            &-spanner{
+                color: gray;
+                font-family: 'Montserrat' , sans-serif;
+                font-size: 14px;
+            }
+        }
+    }
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.buttons-real{
+    margin-top: 20px;
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    border-radius: 1px solid rgb(219, 217, 217);
+    background-color: rgb(247, 247, 247);
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    &-paddingp{
+        font-size: 18px;
+        font-family: 'Montserrat' , sans-serif;
+        font-weight: 900;
+        color: coral;
+        cursor: pointer;
+        &:active{
+            opacity: 0.5;
+        }
+        &:hover{
+            color: black;
+        }
+        }
+        &-padding{
+            font-size: 18px;
+            font-family: 'Montserrat' , sans-serif;
+            font-weight: 600;
+            color: black;
+            cursor: pointer;
+            &:active{
+                opacity: 0.5;
+            }
+            &:hover{
+                color: black;
+            }
+    }
+}
+.buttons-clicks{
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: rgb(247, 130, 63);
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    &-img{
+        margin-bottom: -5px;
+        margin-left: 5px;
+    }
+    &:hover{
+        box-shadow: 0px 0px 0px 1px rgb(207, 205, 205);
+    }
+    &:active{
+        background-color: rgb(122, 50, 22);
+        box-shadow: 0px 0px 0px 1px rgb(207, 205, 205);
+    }
+}
